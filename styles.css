@@ -122,6 +122,10 @@ img:hover{
     color: white;
 }
 
+.row-about{
+    text-align: center;
+}
+
 #mywork-lnk{
     width: 100px;
     height: 50px;
