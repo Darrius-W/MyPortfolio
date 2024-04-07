@@ -59,6 +59,7 @@ section{
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     color: white;
+    font-size: 17px;
 }
 
 .nav-lnks:hover {
@@ -67,7 +68,7 @@ section{
     color: black;
     transform: scale(1.1);
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .nav-lnks:active {
@@ -119,8 +120,8 @@ section{
 }
 
 img{
-    height: 60%;
-    width: 60%;
+    height: 50%;
+    width: 50%;
 }
 
 img:hover{
