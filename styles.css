@@ -52,7 +52,6 @@ html, body{
     }
 
     .hero-text > h1{
-        color: red;
         font-size: 14vw;
     }
 
@@ -94,7 +93,6 @@ html, body{
     }
 
     .hero-text > h1{
-        color: blue;
         font-size: 12.1vw;
     }
 
@@ -136,7 +134,6 @@ html, body{
     }
 
     .hero-text > h1{
-        color: green;
         font-size: 11vw;
     }
 
@@ -175,10 +172,6 @@ html, body{
     .main-wrapper{
         width: 100%;
         height: 100%;
-    }
-
-    .hero-text > h1{
-        color: purple;
     }
 
     .hero-text > p{
@@ -264,7 +257,7 @@ html, body{
     line-height: 90%;
     /* or 91px */
 
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 
 
     /* Inside auto layout */
