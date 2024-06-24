@@ -395,7 +395,7 @@ img:hover{
 *{
     /*margin: 0px auto;*/
     padding: 0px;
-    margin: auto;
+    /*margin: auto;*/
     overflow: hidden;
 }
 
