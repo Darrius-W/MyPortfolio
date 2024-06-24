@@ -4,14 +4,12 @@ html, body{
     background-size: cover;
     scroll-behavior: smooth;
     width: 100vw;
-    height: 100%;
-    margin: auto;
+    height: 100vh;
 }
 
 .main-wrapper{
     width: 100%;
     height: 100%;
-    margin: auto;
 }
 
 .hero-content{
@@ -56,6 +54,11 @@ html, body{
 }
 
 @media only screen and (max-width: 600px){
+    .main-wrapper{
+        width: 100%;
+        height: 100%;
+    }
+
     .hero-content{
         top: 24%;
     }
@@ -96,6 +99,11 @@ html, body{
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px){
+    .main-wrapper{
+        width: 100%;
+        height: 100%;
+    }
+
     .hero-content{
         top: 24%;
     }
@@ -136,6 +144,11 @@ html, body{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
+    .main-wrapper{
+        width: 100%;
+        height: 100%;
+    }
+
     .hero-content{
         top: 24%;
     }
@@ -176,6 +189,11 @@ html, body{
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
+    .main-wrapper{
+        width: 100%;
+        height: 100%;
+    }
+
     .hero-text > p{
         width: 57%;/*50%;*/
         right: 6.6%;
@@ -210,7 +228,9 @@ html, body{
     /* Header & Subheader */
 
     /* Auto layout */
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 0px;
     gap: 0px;
 
@@ -377,7 +397,7 @@ img:hover{
 *{
     /*margin: 0px auto;*/
     padding: 0px;
-    /*margin: auto;*/
+    margin: auto;
     overflow: hidden;
 }
 
@@ -404,8 +424,7 @@ body{
     background: #0A0A0A;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
-    height:100%;
-    margin: auto;
+    height:100vh;
 }
 
 .circles{
@@ -415,7 +434,6 @@ body{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    margin: auto;
 }
 
 .circles li{
