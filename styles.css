@@ -343,7 +343,6 @@ html, body{
 #contact-span{
     position: relative;
     z-index: 2;
-    display: inline-block;
     /*width: 27%;*/
 }
 
