@@ -21,6 +21,8 @@ html, body{
 
 .hero-text > h1{
     font-size: 9vw;
+    width: 87%;/*50%;*/
+    left: 8%;
 }
 
 .hero-text > p{
@@ -60,28 +62,30 @@ html, body{
     }
 
     .hero-content{
-        top: 24%;
+        top: 22%;
     }
 
     .hero-text > h1{
-        font-size: 14vw;
+        font-size: 17vw;
+        width: 100%;
+        left: 5%
     }
 
     .hero-text > p{
-        width: 72%;/*50%;*/
-        left: 1.2%;
-        font-size: 3.5vw;/*18px;*/
+        width: 94%;/*50%;*/
+        left: 3.1%;
+        font-size: 3.8vw;/*18px;*/
     }
 
     .wrapper{
-        width: 63%;
+        width: 82%;
         line-height: 8vh;
-        right: 3.6%;
+        right: 2.9%;
     }
 
     #contact-lnk{
         padding: 0.8vh 1.5vw 0.8vh 1.5vw; /*8px 15px 8px 15px;*/
-        font-size: 2.6vw;
+        font-size: 3.6vw;
     }
 
     .my-lnks > img{
@@ -109,24 +113,26 @@ html, body{
     }
 
     .hero-text > h1{
-        font-size: 10vw;
+        font-size: 13.7vw;
+        width: 100%;
+        left: 4%;
     }
 
     .hero-text > p{
-        width: 80%;/*50%;*/
-        left: 5%;
-        font-size: 2.6vw;/*18px;*/
+        width: 95%;/*50%;*/
+        left: 2.4%;
+        font-size: 3vw;/*18px;*/
     }
 
     .wrapper{
-        width: 68%;
-        line-height: 9vh;
-        right: 1.2%;
+        width: 83%;
+        line-height: 8vh;
+        right: 3.6%;
     }
 
     #contact-lnk{
         padding: 0.8vh 1.5vw 0.8vh 1.5vw; /*8px 15px 8px 15px;*/
-        font-size: 2.6vw;
+        font-size: 3.6vw;
     }
 
     .my-lnks > img{
@@ -154,19 +160,21 @@ html, body{
     }
 
     .hero-text > h1{
-        font-size: 9vw;
+        font-size: 14vw;
+        width: 100%;
+        left: 7%;
     }
 
     .hero-text > p{
-        width: 70%;/*50%;*/
-        right: 0%;
-        font-size: 2vw;/*18px;*/
+        width: 91%;/*50%;*/
+        left: 3.2%;
+        font-size: 3vw;/*18px;*/
     }
 
     .wrapper{
-        width: 64%;
-        line-height: 10vh;
-        right: 3.1%;
+        width: 78%;
+        line-height: 8vh;
+        right: 3.2%;
     }
 
     #contact-lnk{
@@ -176,11 +184,11 @@ html, body{
 
     .my-lnks > img{
         margin-left: 6px;
-        width: 12%;
+        width: 10%;
     }
     
     #github-lnk{
-        width: 13%;
+        width: 11%;
     }
 
     .footer{
@@ -279,9 +287,9 @@ html, body{
     flex-grow: 0;
 
     margin: auto;
-    width: 87%;/*50%;*/
+    /*width: 87%;50%;*/
     position: relative;
-    left: 8%;
+    /*left: 8%;*/
 }
 
 .hero-text > p{
