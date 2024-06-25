@@ -406,7 +406,7 @@ img:hover{
     /*margin: 0px auto;*/
     padding: 0px;
     margin: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 body{
