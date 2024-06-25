@@ -19,14 +19,14 @@ html, body{
     top: 18%;
 }
 
+.hero-text > h1{
+    font-size: 9vw;
+}
+
 .hero-text > p{
     width: 60%;/*50%;*/
     right: 5%;
     font-size: 1.5vw;/*18px;*/
-}
-
-.hero-text > h1{
-    font-size: 9vw;
 }
 
 .wrapper{
@@ -70,7 +70,7 @@ html, body{
     .hero-text > p{
         width: 72%;/*50%;*/
         left: 1.2%;
-        font-size: 3vw;/*18px;*/
+        font-size: 3.5vw;/*18px;*/
     }
 
     .wrapper{
@@ -109,7 +109,7 @@ html, body{
     }
 
     .hero-text > h1{
-        font-size: 12.1vw;
+        font-size: 10vw;
     }
 
     .hero-text > p{
@@ -154,7 +154,7 @@ html, body{
     }
 
     .hero-text > h1{
-        font-size: 11vw;
+        font-size: 9vw;
     }
 
     .hero-text > p{
