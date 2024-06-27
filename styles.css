@@ -49,11 +49,15 @@ html, body{
 .my-lnks > img{
     margin-left: 6px;
     width: 9%;
-    margin-bottom: 1vh;
 }
 
 #github-lnk{
     width: 10%;
+    margin-bottom: 1vh;
+}
+
+#linkedIn-img{
+    margin-bottom: 1vh;
 }
 
 @media only screen and (max-width: 600px){
@@ -92,11 +96,15 @@ html, body{
     .my-lnks > img{
         margin-left: 6px;
         width: 12%;
+    }
+
+    #github-lnk{
+        width: 13%;
         margin-bottom: 0vh;
     }
     
-    #github-lnk{
-        width: 13%;
+    #linkedIn-img{
+        margin-bottom: 0vh;
     }
 }
 
@@ -141,6 +149,11 @@ html, body{
     
     #github-lnk{
         width: 13%;
+        margin-bottom: 0vh;
+    }
+    
+    #linkedIn-img{
+        margin-bottom: 0vh;
     }
 }
 
@@ -185,6 +198,11 @@ html, body{
     
     #github-lnk{
         width: 11%;
+        margin-bottom: 0vh;
+    }
+    
+    #linkedIn-img{
+        margin-bottom: 0vh;
     }
 }
 
@@ -218,6 +236,11 @@ html, body{
     
     #github-lnk{
         width: 11%;
+        margin-bottom: 0vh;
+    }
+    
+    #linkedIn-img{
+        margin-bottom: 0vh;
     }
 }
 
