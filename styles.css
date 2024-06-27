@@ -49,14 +49,11 @@ html, body{
 .my-lnks > img{
     margin-left: 6px;
     width: 9%;
+    margin-bottom: 1vh;
 }
 
 #github-lnk{
     width: 10%;
-}
-
-.footer{
-    font-size: 1.2vw;
 }
 
 @media only screen and (max-width: 600px){
@@ -95,14 +92,11 @@ html, body{
     .my-lnks > img{
         margin-left: 6px;
         width: 12%;
+        margin-bottom: 0vh;
     }
     
     #github-lnk{
         width: 13%;
-    }
-
-    .footer{
-        font-size: 3vw;
     }
 }
 
@@ -142,14 +136,11 @@ html, body{
     .my-lnks > img{
         margin-left: 6px;
         width: 12%;
+        margin-bottom: 0vh;
     }
     
     #github-lnk{
         width: 13%;
-    }
-
-    .footer{
-        font-size: 3vw;
     }
 }
 
@@ -189,14 +180,11 @@ html, body{
     .my-lnks > img{
         margin-left: 6px;
         width: 10%;
+        margin-bottom: 0vh;
     }
     
     #github-lnk{
         width: 11%;
-    }
-
-    .footer{
-        font-size: 2vw;
     }
 }
 
@@ -225,14 +213,11 @@ html, body{
     .my-lnks > img{
         margin-left: 6px;
         width: 10%;
+        margin-bottom: 0vh;
     }
     
     #github-lnk{
         width: 11%;
-    }
-
-    .footer{
-        font-size: 1.2vw;
     }
 }
 
@@ -383,21 +368,6 @@ img:hover{
     transition: 0.5s;
 }
 
-.footer{
-    /*font-size: 1.2vw;*/
-
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-right: 20px;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    align-self: stretch;
-    flex-grow: 0;
-}
 
 
 
