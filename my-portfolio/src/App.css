@@ -89,7 +89,102 @@ main{
   display: inline-flex;
   align-items: center;
   gap: 0.8vw;
-  padding-left: 1vw;
+  padding-left: 1rem;
+}
+
+.navRight{
+  display: flex;
+  padding-right: 1rem;
+}
+
+.navRight-lnks{
+  display: flex;
+  gap: 0.1rem;
+  padding: 0.1rem;
+  border: 2px solid white;
+  border-radius: 5%;
+}
+
+.battery-slab{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 3rem;
+  width: 3rem;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.email-btn{
+  border: none;
+}
+
+.gh-icon, .linkedin-icon, .email-icon{
+  fill: black;
+  transition: opacity 0.5s ease;
+}
+
+.gh-icon, .linkedin-icon{
+  display: flex;
+  margin: auto;
+  margin-top: 6px;
+}
+
+.gh-text{
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.linkedin-text{
+  position: absolute;
+  top: 32%;
+  left: 3%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: white;
+}
+
+.email-text{
+  position: absolute;
+  top: 28%;
+  left: 11%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.battery-slab:hover .gh-icon, .battery-slab:hover .linkedin-icon, .battery-slab:hover .email-icon{
+  opacity: 0;
+}
+
+.battery-slab:hover .gh-text, .battery-slab:hover .linkedin-text, .battery-slab:hover .email-text{
+  opacity: 1;
+}
+
+.battery-slab:hover{
+  background-color: black;
+}
+
+.navRight-extra{
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 0.6rem;
+  height: 1rem;
+  margin: auto;
 }
 
 @keyframes flash{
@@ -119,6 +214,7 @@ main{
 
 .nav-lnks{
   color: white;
+  margin: 0;
 }
 
 h2{
@@ -136,7 +232,7 @@ h3{
   text-shadow: 1px 3px blue;*/
 }
 
-p{
+.content-text, .built-by-tag{
   color: #fff;
   filter: blur(0.8px);
 }

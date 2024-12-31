@@ -1,5 +1,8 @@
 import './App.css';
 import Nav from 'react-bootstrap/Nav';
+import { ReactComponent as GitHubIcon } from "./assets/images/github-icon.svg";
+import { ReactComponent as LinkedInIcon } from "./assets/images/linkedin-icon.svg";
+import { ReactComponent as EmailIcon } from "./assets/images/email-icon.svg";
 
 function App() {
   const sendMail = () => {
@@ -20,14 +23,31 @@ function App() {
                 <div className='circle'></div>
                 <a className="name-lnk navbar-brand" href="#">Darrius White</a>
               </span>
-              <span>
-                <a className="nav-lnks navbar-brand" href="https://github.com/Darrius-W">
-                  <img height="30rem" width="30rem" alt="github-symbol" src="/images/github-mark-white.png"/>
-                </a>
-                <a className="nav-lnks navbar-brand" href="https://www.linkedin.com/in/darrius-white/">
-                  <img height="30rem" width="30rem" src="/images/linkedin-app-white-icon.png" alt="linkedin-symbol"/>
-                </a>
-              </span>
+              <div className='navRight'>
+                <span className='navRight-lnks'>
+                  <a href="https://github.com/Darrius-W" target="_blank" className='battery-slab'>
+                    <p className="gh-text">GitHub</p>
+                    <GitHubIcon className="gh-icon" width="75%" height="75%" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/darrius-white/" target="_blank" className='battery-slab'>
+                    <p className="linkedin-text">LinkedIn</p>
+                    <LinkedInIcon className="linkedin-icon" width="75%" height="75%" />
+                  </a>
+                  <button onClick={ sendMail } className='battery-slab email-btn'>
+                    <p className="email-text">Email</p>
+                    <EmailIcon className="email-icon" width="85%" height="95%" />
+                  </button>
+                  {/*
+                  <a className="nav-lnks navbar-brand" href="https://github.com/Darrius-W">
+                    <img height="30rem" width="30rem" alt="github-symbol" src="/images/github-mark-white.png"/>
+                  </a>
+                  <a className="nav-lnks navbar-brand" href="https://www.linkedin.com/in/darrius-white/">
+                    <img height="30rem" width="30rem" src="/images/linkedin-app-white-icon.png" alt="linkedin-symbol"/>
+                  </a>
+                  */}
+                </span>
+                <div className='navRight-extra'></div>
+              </div>
             </div>
           </Nav>
         </header>
@@ -39,13 +59,13 @@ function App() {
           <div className="main-content">
             <h2>Hello, I'm Darrius</h2>
             <h3>I build software solutions for the web.</h3>
-            <p>
+            <p className='content-text'>
               I'm a software developer specialized in building secure,
               user-focused full-stack applications that align with business needs.
               I prioritize intuitive design, robust functionality, and exceptional
               user experiences.
             </p>
-            <button type="button" onClick={ sendMail } className="contact-btn btn btn-lg btn-outline-light">Get In Touch</button>
+            {/*<button type="button" onClick={ sendMail } className="contact-btn btn btn-lg btn-outline-light">Get In Touch</button>*/}
           </div>
         </section>
         <footer className="fixed-bottom d-flex justify-content-center">
