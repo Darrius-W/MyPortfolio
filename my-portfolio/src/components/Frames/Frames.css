@@ -1,0 +1,46 @@
+.TL-frame{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    top: 1.2rem;
+    left: 1.2rem;
+    opacity: 50%;
+}
+  
+.TR-frame{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    top: 1.2rem;
+    right: 1.2rem;
+    transform: rotate(90deg);
+    opacity: 50%;
+}
+  
+.BL-frame{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    transform: rotate(270deg);
+    opacity: 50%;
+}
+  
+.BR-frame{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    bottom: 1.2rem;
+    right: 1.2rem;
+    transform: rotate(180deg);
+    opacity: 50%;
+}

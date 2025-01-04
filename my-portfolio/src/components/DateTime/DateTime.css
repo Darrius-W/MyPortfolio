@@ -1,0 +1,17 @@
+.local-date{
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    bottom: 3.5rem;
+    right: 3rem;
+    filter: blur(0.8px);
+  }
+  
+  .local-time{
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    bottom: 1.25rem;
+    right: 3rem;
+    filter: blur(0.8px);
+  }
