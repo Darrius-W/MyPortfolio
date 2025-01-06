@@ -1,0 +1,82 @@
+.navRight{
+    display: flex;
+    padding-right: 1rem;
+}
+  
+  .navRight-lnks{
+    display: flex;
+    gap: 0.1rem;
+    padding: 0.1rem;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+.navRight-extra{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 0.6rem;
+    height: 1rem;
+    margin: auto;
+}
+
+.battery-slab{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+    border-radius: 5%;
+}
+  
+.gh-icon, .linkedin-icon, .email-icon{
+    display: flex;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.gh-icon:hover, .linkedin-icon:hover, .email-icon:hover{
+    transform: translateY(-1.6px);
+    transition: ease 0.3s;
+}
+
+.tooltip.custom-tooltip .tooltip-arrow::before {
+    border-bottom-color: white;
+}
+  
+.tooltip.custom-tooltip .tooltip-inner {
+    background-color: black; /* Tooltip background */
+    color: white; /* Tooltip text color */
+    border: 1.5px solid white;
+    border-radius: 10%;
+}
+
+/*
+@media (max-width: 576px) and (orientation: portrait){
+    .battery-slab{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) and (orientation: portrait){
+    .battery-slab{
+        display: none;
+    }
+}
+*/
+
+/* LANDSCAPE */
+/*
+@media (max-height: 600px) and (orientation: landscape){
+    .battery-slab{
+        display: contents;
+    }
+}
+
+@media (min-height: 600px) and (max-height: 800px) and (orientation: landscape){
+    .battery-slab{
+        display: contents;
+    }
+}
+*/

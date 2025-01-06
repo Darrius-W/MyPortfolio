@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Frames from './components/Frames/Frames.js'
 import DateTime from './components/DateTime/DateTime.js'
 import NameHeader from './components/NameHeader/NameHeader.js'
-import MyLinks from './components/MyLinks/MyLinks.js'
+import BatteryLinks from './components/BatteryLinks/BatteryLinks.js'
 import Footer from './components/Footer/Footer.js'
 import ContentSec from './components/ContentSec/ContentSec.js'
 
@@ -13,7 +13,7 @@ export default function App() {
       <Frames />
       <Nav className="navbar bg-transparent fixed-top">
         <NameHeader />
-        <MyLinks />
+        <BatteryLinks />
       </Nav>
       <ContentSec />
       <Footer />
