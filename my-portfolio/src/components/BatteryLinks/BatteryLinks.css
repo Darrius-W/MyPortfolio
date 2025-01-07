@@ -9,6 +9,11 @@
     padding: 0.1rem;
     border: 2px solid white;
     border-radius: 5%;
+    width: 8rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .navRight-extra{
@@ -52,10 +57,22 @@
     border-radius: 10%;
 }
 
-/*
+.battery-bg{
+    z-index: -1;
+    width: 96%;
+    height: 90%;
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+}
+
 @media (max-width: 576px) and (orientation: portrait){
-    .battery-slab{
+    .battery-slab {
         display: none;
+    }
+
+    .battery-bg{
+        visibility: visible;
     }
 }
 
@@ -64,7 +81,6 @@
         display: none;
     }
 }
-*/
 
 /* LANDSCAPE */
 /*

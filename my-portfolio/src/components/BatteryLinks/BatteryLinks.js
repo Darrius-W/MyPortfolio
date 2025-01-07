@@ -17,6 +17,7 @@ export default function MyLinks(){
         <div className='navRight'>
             <div className='navRight-extra'></div>
             <span className='navRight-lnks'>
+                <div className="battery-bg"></div>
                 <Link linkPath="https://github.com/Darrius-W" title="Github" id="gh-lnk">
                     <GitHubIcon className="gh-icon" width="75%" height="75%" />
                 </Link>
