@@ -13,11 +13,11 @@
 .navLeft{
     display: inline-flex;
     align-items: center;
-    gap: 0.8vw;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
 }
 
 .circle{
+    position: absolute;
     width: 1.25rem;
     height: 1.25rem;
     background-color: red;
@@ -25,14 +25,53 @@
     animation: flash 1.5s infinite;
 }
 
+.pause-button{
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.pause-button::before,
+.pause-button::after {
+    position: absolute;
+    content: '';
+    width: 0.4rem;
+    height: 1.25rem;
+    background-color: white;
+    border-radius: 20%;
+    opacity: 70%;
+}
+
+.pause-button:after{
+    margin-left: 0.8rem;
+}
+
+.navLeft:active .circle{
+    display: none;
+}
+.navLeft:active .pause-button{
+    display: contents;
+}
+
 .name-lnk{
     opacity: 100%;
     color:red;
+    position: relative;
+    left: 18%;
 }
 
-.name-lnk:hover{
+.name-lnk:hover {
     opacity: 70%;
     transition: 0.3s;
+    color: white;
+}
+
+.name-lnk:active{
+    opacity: 70%;
     color: white;
 }
 

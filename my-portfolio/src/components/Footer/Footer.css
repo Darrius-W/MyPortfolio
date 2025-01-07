@@ -1,5 +1,6 @@
 .footer-sect{
     position: relative;
+    width: 100vw;
 }
   
 .footer-item{
@@ -12,11 +13,10 @@ img:hover{
 }
 
 .built-by-tag{
+    width: 100%;
     font-size: 0.9rem;
-    bottom: 0;
-    color: white;
     color: #fff;
-    filter: blur(0.8px);
+    filter: blur(0.5px);
 }
 
 @media (max-width: 576px) and (orientation: portrait){
