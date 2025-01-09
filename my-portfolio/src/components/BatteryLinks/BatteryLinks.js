@@ -5,7 +5,6 @@ import "./BatteryLinks.css"
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
-
 export default function MyLinks(){
     const Link = ({ id, children, title, linkPath}) => (
         <OverlayTrigger delay={{ show: 250, hide: 400 }} placement="bottom" overlay={<Tooltip className="custom-tooltip" id={id}>{title}</Tooltip>}>
