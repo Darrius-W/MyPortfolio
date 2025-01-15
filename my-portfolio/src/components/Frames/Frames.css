@@ -1,0 +1,91 @@
+.TL-frame{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    top: 1.2rem;
+    left: 1.2rem;
+    opacity: 50%;
+}
+  
+.TR-frame{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    top: 1.2rem;
+    right: 1.2rem;
+    transform: rotate(90deg);
+    opacity: 50%;
+}
+  
+.BL-frame{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    transform: rotate(270deg);
+    opacity: 50%;
+}
+  
+.BR-frame{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    bottom: 1.2rem;
+    right: 1.2rem;
+    transform: rotate(180deg);
+    opacity: 50%;
+}
+
+/* Landscape */
+@media (max-width: 600px) and (orientation: landscape){
+    .TL-frame{
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .TR-frame{
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .BL-frame{
+        bottom: 1rem;
+        left: 1rem;
+    }
+
+    .BR-frame{
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) and (orientation: landscape){
+    .TL-frame{
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .TR-frame{
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .BL-frame{
+        bottom: 1rem;
+        left: 1rem;
+    }
+
+    .BR-frame{
+        bottom: 1rem;
+        right: 1rem;
+    }
+}

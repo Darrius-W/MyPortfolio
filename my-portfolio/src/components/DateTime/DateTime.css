@@ -1,0 +1,94 @@
+.time-container{
+  display: flex;
+  position: absolute;
+  justify-content: end;
+  width: 100%;
+  padding-right: 2.65rem;
+  bottom: 0.4rem;
+}
+
+.local-date{
+  display: flex;
+  color: white;
+  position: relative;
+  font-size: 2rem;
+  filter: blur(0.8px);
+  bottom: 2rem;
+}
+  
+.local-time{
+  display: flex;
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  filter: blur(0.8px);
+}
+
+@media (max-width: 576px) and (orientation: portrait){
+  .time-container{
+    justify-content: center;
+    padding-right: 0rem;
+    bottom: 0px;
+  }
+
+  .local-date{
+    bottom: 6.25rem;
+    font-size: 1.5rem;
+  }
+
+  .local-time{
+    bottom: 4.55rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) and (orientation: portrait){
+  .time-container{
+    justify-content: center;
+    padding-right: 0rem;
+  }
+  
+  .local-date{
+    bottom: 6.25rem;
+    font-size: 1.5rem;
+  }
+
+  .local-time{
+    bottom: 4.55rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* LANDSCAPE */
+
+@media (max-width: 600px) and (orientation: landscape){
+  .local-date{
+    font-size: 1.5rem;
+    bottom: 1.6rem;
+  }
+
+  .local-time{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) and (orientation: landscape){ 
+  .local-date{
+    font-size: 1.5rem;
+    bottom: 1.6rem;
+  }
+
+  .local-time{
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1080px) and (orientation: landscape){
+  .local-date{
+    font-size: 1.75rem;
+  }
+
+  .local-time{
+    font-size: 1.75rem;
+  }
+}
