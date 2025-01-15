@@ -8,7 +8,7 @@
     overflow: hidden;
     background-color: black;
     object-fit: cover;
-    filter: blur(1px);
+    filter: blur(0px);
 }
   
 .home-page{

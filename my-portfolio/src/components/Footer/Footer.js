@@ -18,7 +18,7 @@ export default function Footer(){
                         <EmailIcon className="email-footer" width="2.5rem" height="2.5rem" fill="white" stroke="black" />
                     </a>
                 </span>
-                <p className="built-by-tag d-flex justify-content-center">Built by Darrius White</p>
+                <p className="built-by-tag d-flex justify-content-center">© Darrius White 2025</p>
             </div>
         </footer>
     );
