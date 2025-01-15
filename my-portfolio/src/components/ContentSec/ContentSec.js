@@ -7,7 +7,7 @@ export default function ContentSec(){
               <source src="/videos/cctv.webm" type="video/webm"/>
               Your browser does not support the video tag.
           </video>*/}
-          <img className="bg-video" src="/videos/output.gif" alt="cctv-static" />
+          <img className="bg-video" src="/videos/cctv.gif" alt="cctv-static" />
           <div className="main-content">
             <h2>Hello, I'm <span className="myName">Darrius</span></h2>
             <h3>I'm a front-end developer and aspiring full-stack developer.</h3>
