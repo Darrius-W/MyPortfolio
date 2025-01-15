@@ -1,6 +1,6 @@
 .navRight{
     display: flex;
-    padding-right: 1rem;
+    padding-right: 1.5rem;
 }
   
 .navRight-lnks{
@@ -74,15 +74,80 @@
     .battery-bg{
         visibility: visible;
     }
+
+    .navRight{
+        width: 5.2rem;
+        filter: blur(0.3px);
+    }
+
+    .navRight-extra{
+        height: 0.7rem;
+    }
+
+    .navRight-lnks{
+        height: 1.75rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px) and (orientation: portrait){
     .battery-slab{
         display: none;
     }
+
+    .battery-bg{
+        visibility: visible;
+    }
+
+    .navRight{
+        width: 7rem;
+        filter: blur(0.3px);
+    }
+
+    .navRight-extra{
+        height: 0.9rem;
+    }
+
+    .navRight-lnks{
+        height: 2.25rem;
+    }
 }
 
 /* LANDSCAPE */
+
+@media (max-width: 600px) and (orientation: landscape){
+    .navRight-extra{
+        width: 0.4rem;
+        height: 0.9rem;
+    }
+
+    .navRight-lnks{
+        width: 7rem;
+        height: 2.65rem;
+    }
+
+    .battery-slab{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) and (orientation: landscape){
+    .navRight-extra{
+        width: 0.4rem;
+        height: 0.9rem;
+    }
+
+    .navRight-lnks{
+        width: 7rem;
+        height: 2.65rem;
+    }
+
+    .battery-slab{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+}
+    
 /*
 @media (max-height: 600px) and (orientation: landscape){
     .battery-slab{

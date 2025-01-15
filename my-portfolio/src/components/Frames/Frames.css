@@ -44,3 +44,48 @@
     transform: rotate(180deg);
     opacity: 50%;
 }
+
+/* Landscape */
+@media (max-width: 600px) and (orientation: landscape){
+    .TL-frame{
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .TR-frame{
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .BL-frame{
+        bottom: 1rem;
+        left: 1rem;
+    }
+
+    .BR-frame{
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) and (orientation: landscape){
+    .TL-frame{
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .TR-frame{
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .BL-frame{
+        bottom: 1rem;
+        left: 1rem;
+    }
+
+    .BR-frame{
+        bottom: 1rem;
+        right: 1rem;
+    }
+}

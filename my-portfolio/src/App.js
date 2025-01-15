@@ -16,8 +16,8 @@ export default function App() {
         <BatteryLinks />
       </Nav>
       <ContentSec />
-      <Footer />
       <DateTime />
+      <Footer />
     </main>
   );
 }

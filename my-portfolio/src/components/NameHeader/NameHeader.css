@@ -14,6 +14,7 @@
     display: inline-flex;
     align-items: center;
     padding-left: 1.5rem;
+    filter: blur(0.3px);
 }
 
 .circle{
@@ -62,6 +63,11 @@
     color:red;
     position: relative;
     left: 18%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 4px;
+    padding: 0px;
 }
 
 .name-lnk:hover {
@@ -75,63 +81,9 @@
     color: white;
 }
 
-@media (max-width: 576px) and (orientation: portrait){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 768px) and (orientation: portrait){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) and (orientation: portrait){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) and (orientation: portrait){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1400px) and (orientation: portrait){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-width: 1400px) and (orientation: portrait){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
 /* Landscape */
 
-@media (max-height: 600px) and (orientation: landscape){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-height: 600px) and (max-height: 800px) and (orientation: landscape){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-height: 800px) and (max-height: 1080px) and (orientation: landscape){
-    .name-lnk{
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-height: 1080px) and (orientation: landscape){
+@media (min-height: 600px) and (orientation: landscape){
     .name-lnk{
         font-size: 1.25rem;
     }

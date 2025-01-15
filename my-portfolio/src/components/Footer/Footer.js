@@ -8,14 +8,14 @@ export default function Footer(){
         <footer className="fixed-bottom d-flex justify-content-center">
             <div className="footer-sect">
                 <span className="footer-socials gap-3 d-flex justify-content-center">
-                    <a className="footer-item navbar-brand" href="https://github.com/Darrius-W" alt="Github">
-                        <GitHubIcon width="2.5rem" height="2.5rem" fill="white" stroke="black" />
+                    <a className="footer-item navbar-brand" href="https://github.com/Darrius-W" alt="Github" rel="noreferrer">
+                        <GitHubIcon className="gh-footer" width="2.5rem" height="2.5rem" fill="white" stroke="black" />
                     </a>
-                    <a className="footer-item navbar-brand" href="https://www.linkedin.com/in/darrius-white/" alt="LinkedIn">
-                        <LinkedInIcon width="2.5rem" height="2.5rem" fill="white" stroke="black" />
+                    <a className="footer-item navbar-brand" href="https://www.linkedin.com/in/darrius-white/" alt="LinkedIn" rel="noreferrer">
+                        <LinkedInIcon className="linkedin-footer" width="2.5rem" height="2.5rem" fill="white" stroke="black" />
                     </a>
-                    <a className="footer-item navbar-brand" href="mailto:darriuswhite582@gmail.com?subject=I'd like to connect!" alt="Email">
-                        <EmailIcon width="2.5rem" height="2.5rem" fill="white" stroke="black" />
+                    <a className="footer-item navbar-brand" href="mailto:darriuswhite582@gmail.com?subject=I'd like to connect!" alt="Email" rel="noreferrer">
+                        <EmailIcon className="email-footer" width="2.5rem" height="2.5rem" fill="white" stroke="black" />
                     </a>
                 </span>
                 <p className="built-by-tag d-flex justify-content-center">Built by Darrius White</p>

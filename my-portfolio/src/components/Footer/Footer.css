@@ -7,9 +7,8 @@
     display: none;
 }
 
-img:hover{
-    transform:translateY(-3px);
-    transition: 0.5s;
+.gh-footer:active, .linkedin-footer:active, .email-footer:active{
+    fill: gray;
 }
 
 .built-by-tag{
