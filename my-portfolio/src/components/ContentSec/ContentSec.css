@@ -30,7 +30,7 @@ h2{
 
 .myName{
     display: inline-block;
-    animation: glitch 5ms infinite;
+    animation: glitch 3s infinite;
 }
 
 @keyframes glitch {
