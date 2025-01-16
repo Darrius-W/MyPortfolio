@@ -77,7 +77,6 @@
 
     .navRight{
         width: 5.2rem;
-        filter: blur(0.3px);
     }
 
     .navRight-extra{
@@ -100,7 +99,6 @@
 
     .navRight{
         width: 7rem;
-        filter: blur(0.3px);
     }
 
     .navRight-extra{
