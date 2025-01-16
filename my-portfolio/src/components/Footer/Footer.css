@@ -15,7 +15,6 @@
     width: 100%;
     font-size: 0.9rem;
     color: #fff;
-    filter: blur(0.3px);
 }
 
 @media (max-width: 576px) and (orientation: portrait){

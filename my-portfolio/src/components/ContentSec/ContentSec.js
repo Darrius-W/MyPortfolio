@@ -7,7 +7,7 @@ export default function ContentSec(){
               <source src="/videos/cctv.mp4" type="video/mp4"/>
               Your browser does not support the video tag.
           </video>*/}
-          <img className="bg-video bg-mobile" src="/videos/cctv-mobile.gif" alt="cctv-static" />
+          <img className="bg-video bg-mobile" src="https://raw.githubusercontent.com/Darrius-W/MyPortfolio/refs/heads/development/my-portfolio/public/videos/cctv-mobile.gif" alt="cctv-static" />
           <div className="main-content">
             <h2>Hello, I'm <span className="myName">Darrius</span></h2>
             <h3>I'm a front-end developer and aspiring full-stack developer.</h3>
