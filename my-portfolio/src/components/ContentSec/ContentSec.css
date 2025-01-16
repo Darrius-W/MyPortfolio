@@ -24,7 +24,7 @@
 h2{
     font-weight: bold;
     color: yellow;
-    filter: blur(0.7px);
+    filter: blur(0.5px);
     text-shadow: -2px -3px red, 1px 3px green;
 }
 
@@ -66,12 +66,12 @@ h2{
 h3{
     font-weight: 500;
     color: yellow;
-    filter: blur(0.7px);
+    filter: blur(0.5px);
 }
   
 .content-text{
     color: #fff;
-    filter: blur(0.7px);
+    filter: blur(0.5px);
 }
 
 @media (max-width: 576px) and (orientation: portrait){
@@ -85,7 +85,7 @@ h3{
   
     .main-content{
         padding: 0px 50px;
-        margin-bottom: 75px;
+        margin-bottom: 100px;
     }
 }
   
@@ -100,7 +100,7 @@ h3{
   
     .main-content{
         padding: 0px 49px;
-        margin-bottom: 75px;
+        margin-bottom: 100px;
     }
 }
   
