@@ -11,13 +11,38 @@
     fill: gray;
 }
 
+.social-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .built-by-tag{
     width: 100%;
     font-size: 0.9rem;
     color: #fff;
 }
 
-@media (max-width: 576px) and (orientation: portrait){
+@media (max-width: 359px) and (orientation: portrait){
+    .footer-socials{
+        bottom: 10px;
+        padding-bottom: 4px;
+    }
+    
+    .footer-item{
+        display: contents;
+    }
+
+    .social-icon{
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+
+    .built-by-tag{
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 576px) and (orientation: portrait){
     .footer-socials{
         bottom: 10px;
         padding-bottom: 7px;

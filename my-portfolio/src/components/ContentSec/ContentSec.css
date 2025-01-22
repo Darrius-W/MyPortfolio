@@ -1,8 +1,8 @@
 .bg-video{
     z-index: -1;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    min-height: 100%;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -21,7 +21,7 @@
     max-width: 666px;
 }
 
-h2{
+h1{
     font-weight: bold;
     color: yellow;
     filter: blur(0.5px);
@@ -30,10 +30,10 @@ h2{
 
 .myName{
     display: inline-block;
-    animation: glitch 3s infinite;
+    animation: name-animation 3s infinite;
 }
 
-@keyframes glitch {
+@keyframes name-animation {
 
     40% { 
         opacity:1; 
@@ -63,7 +63,7 @@ h2{
     }
 }
   
-h3{
+h2{
     font-weight: 500;
     color: yellow;
     filter: blur(0.5px);
@@ -74,28 +74,47 @@ h3{
     filter: blur(0.5px);
 }
 
-@media (max-width: 576px) and (orientation: portrait){
+@media (max-width: 359px) and (orientation: portrait){
+    h1{
+        font-size: var(--fs-6);
+    }
+    
     h2{
-        font-size: 2.3rem;
+        font-size: var(--fs-3);
+    }
+
+    .content-text{
+        font-size: var(--fs-2);
+    }
+
+    .main-content{
+        padding: 0px 50px;
+        margin-bottom: 120px; /*48px;*/
+    }
+}
+
+@media (min-width: 360px) and (max-width: 576px) and (orientation: portrait){
+    h1{
+        font-size: var(--fs-9);
     }
   
-    h3{
-        font-size: 1.5rem;
+    h2{
+        font-size: var(--fs-5);
     }
   
     .main-content{
         padding: 0px 50px;
-        margin-bottom: 100px;
+        margin-bottom: 120px; /*60px;*/
     }
 }
   
 @media (min-width: 576px) and (max-width: 768px) and (orientation: portrait){
-    h2{
-        font-size: 2.5rem;
+    h1{
+        font-size: var(--fs-9);
     }
   
-    h3{
-        font-size: 1.65rem;
+    h2{
+        font-size: var(--fs-5);
     }
   
     .main-content{
@@ -105,12 +124,12 @@ h3{
 }
   
 @media (min-width: 768px) and (max-width: 992px) and (orientation: portrait){  
-    h2{
-        font-size: 2.8rem;
+    h1{
+        font-size: var(--fs-11);
     }
   
-    h3{
-        font-size: 1.8rem;
+    h2{
+        font-size: var(--fs-7);
     }
   
     .main-content{
@@ -120,12 +139,12 @@ h3{
 }
   
 @media (min-width: 992px) and (max-width: 1200px) and (orientation: portrait){ 
-    h2{
-        font-size: 3.1rem;
+    h1{
+        font-size: var(--fs-11);
     }
   
-    h3{
-        font-size: 1.95rem;
+    h2{
+        font-size: var(--fs-7);
     }
 
     .main-content{
@@ -134,24 +153,24 @@ h3{
 }
   
 @media (min-width: 1200px) and (orientation: portrait){  
-    h2{
-        font-size: 3.1rem;
+    h1{
+        font-size: var(--fs-11);
     }
   
-    h3{
-        font-size: 2rem;
+    h2{
+        font-size: var(--fs-7);
     }
 }
   
   
   /* LANDSCAPE */ 
 @media (max-width: 600px) and (orientation: landscape){  
-    h2{
-        font-size: 2.5rem;
+    h1{
+        font-size: var(--fs-8);
     }
   
-    h3{
-        font-size: 1.5rem;
+    h2{
+        font-size: var(--fs-5);
     }
   
     .main-content{
@@ -162,12 +181,12 @@ h3{
 }
   
 @media (min-width: 600px) and (max-width: 800px) and (orientation: landscape){ 
-    h2{
-        font-size: 2.5rem;
+    h1{
+        font-size: var(--fs-9);
     }
   
-    h3{
-        font-size: 1.5rem;
+    h2{
+        font-size: var(--fs-5);
     }
   
     .main-content{
@@ -178,12 +197,12 @@ h3{
 }
   
 @media (min-width: 800px) and (max-width: 1080px) and (orientation: landscape){
-    h2{
-        font-size: 2.6rem;
+    h1{
+        font-size: var(--fs-9);
     }
   
-    h3{
-        font-size: 1.6rem;
+    h2{
+        font-size: var(--fs-5);
     }
   
     .main-content{
@@ -194,12 +213,12 @@ h3{
 }
 
 @media (min-width: 1080px) and (orientation: landscape){
-    h2{
-        font-size: 3.1rem;
+    h1{
+        font-size: var(--fs-11);
     }
   
-    h3{
-        font-size: 1.95rem;
+    h2{
+        font-size: var(--fs-7);
     }
   
     .main-content{

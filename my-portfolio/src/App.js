@@ -17,7 +17,8 @@ export default function App() {
       </Nav>
       <ContentSec />
       <DateTime />
-      <Footer />
+      <Footer>
+      </Footer>
     </main>
   );
 }
