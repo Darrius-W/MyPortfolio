@@ -66,7 +66,30 @@
     visibility: hidden;
 }
 
-@media (max-width: 576px) and (orientation: portrait){
+@media (max-width: 359px) and (orientation: portrait){
+
+    .battery-slab {
+        display: none;
+    }
+
+    .battery-bg{
+        visibility: visible;
+    }
+
+    .navRight{
+        width: 4.25rem;
+    }
+
+    .navRight-extra{
+        height: 0.6rem;
+    }
+
+    .navRight-lnks{
+        height: 1.25rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 576px) and (orientation: portrait){
     .battery-slab {
         display: none;
     }
