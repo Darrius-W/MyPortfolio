@@ -27,19 +27,23 @@ To run this portfolio locally, follow these steps:
    ```bash
    git clone https://github.com/Darrius-W/MyPortfolio.git
 
-2. Navigate into the source folder:
+2. Navigate into project folder:
+   ```bash
+   cd MyPortfolio
+
+3. Navigate into the source directory:
    ```bash
    cd my-portfolio
 
-3. Install dependencies:
+4. Install dependencies:
    ```bash
    npm install
 
-4. Run application:
+5. Run application:
    ```bash
    npm start
 
-5. The portfolio should now be running on http://localhost:3000
+6. The portfolio should now be running on http://localhost:3000
 
 
 ## Demo
