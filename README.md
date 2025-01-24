@@ -43,7 +43,7 @@ To run this portfolio locally, follow these steps:
 
 
 ## Demo
-![Homepage gif](my-portfolio/public/videos/demo.gif)
+![Homepage gif](https://raw.githubusercontent.com/Darrius-W/Portfolio-videos/refs/heads/main/demo.gif)
 
 
 ## Contact
