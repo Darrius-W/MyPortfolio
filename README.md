@@ -2,7 +2,7 @@
 A responsive and interactive portfolio website showcasing my skills and interests
 as a software developer.
 
-<br /><br />Hosted at:<br />
+Hosted at:<br />
 https://darriuswhite.com
 
 ## About
