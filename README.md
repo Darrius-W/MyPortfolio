@@ -16,6 +16,7 @@ and emphasizes performance and responsiveness.
 ## Technologies Used
  - React.js
  - HTML/CSS
+ - JavaScript
  - Bootstrap
 
 ## Getting Started
