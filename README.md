@@ -61,7 +61,7 @@ To run this portfolio locally, follow these steps:
 
 ## Demo
 
-![Homepage gif](./images/Portfolio-demo.PNG)
+![Homepage demo image](my-portfolio/src/assets/images/Portfolio-demo.PNG)
 
 ## Contact
 
