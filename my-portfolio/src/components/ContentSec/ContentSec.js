@@ -10,12 +10,12 @@ export default function ContentSec(){
           <img className="bg-video bg-mobile" src="https://raw.githubusercontent.com/Darrius-W/Portfolio-videos/refs/heads/main/cctv-mobile.gif" alt="cctv-static" />
           <div className="main-content">
             <h1>Hello, I'm <span className="myName">Darrius</span></h1>
-            <h2>I'm a front-end developer and aspiring full-stack developer.</h2>
+            <h2>I’m a full stack developer passionate about building secure, scalable web apps.</h2>
             <p className='content-text'>
-              I specialize in developing web applications with a focus on creating
-              intuitive UI designs that bring creative visions to life. I prioritize
-              responsive design, robust functionality, and delivering a positive
-              user experience.
+              I specialize in Python backends using Flask and FastAPI, and develop
+              responsive interfaces with React. From realtime chat apps to token-based
+              authentication systems, I focus on clean architecture, reliable APIs, and
+              secure design.
             </p>
           </div>
         </section>
